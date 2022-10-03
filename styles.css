@@ -1,0 +1,99 @@
+@font-face {
+    font-family: "robotobold";
+    src: url("fonts/Roboto-Bold.ttf");
+}
+
+@font-face {
+    font-family: "roboto";
+    src: url("fonts/Roboto-Italic.ttf");
+}
+
+::-webkit-scrollbar {
+    display: none;
+  }
+
+  * {
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    color: white;	
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    transition: 600ms;
+    position: relative;
+}
+
+.profile {
+    margin-top: 10vh;
+}
+
+.pfp {
+    padding: 2px;
+    border-radius: 100%;
+    width: 340;
+    height: 340px;
+    box-shadow: 1px 1px 5px 1px black;
+}
+
+li {
+    margin-top: 10px;
+    font-size: 30px;
+    text-align: center;
+    font-family: robotobold;
+    text-shadow: 1px 1px 4px black;
+}
+
+p {
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: center;
+    font-family: roboto;
+    text-shadow: 1px 1px 4px rgb(0, 0, 0);
+    color: rgba(255, 255, 255, 0.514);
+}
+
+.sbspan {
+    color: rgb(26, 5, 77);
+}
+
+.connections {
+    text-align: center;
+}
+
+.apps {
+    margin-top: 10px;
+    padding: 15px;
+    width: 40px;
+    opacity: 0.6;
+    transition: 700ms;
+}
+
+.spotify {
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    margin-top: 10px;
+}
+
+.apps:hover {
+    opacity: 1;
+}
+
+.vid {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+}
